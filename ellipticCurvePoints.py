@@ -1,7 +1,7 @@
 def ECPoints(A, B, p):
     """
     Prints all points on the elliptic curve
-    E : Y^2 = X^3 + AX + B in the field mod 7
+    E : Y^2 = X^3 + AX + B in the field mod p
     """
 
     points = [(0, 0)]
